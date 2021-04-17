@@ -4,16 +4,31 @@
 
     <head>
         <link rel="stylesheet" href="/css/style.css">
-        {{!-- <script src="/js/app.js"></script> --}}
+        {{!--
+        <script src="/js/app.js"></script> --}}
 
     </head>
 
     <body>
         {{>header}}
-        <p>Created by: {{name}}</p>
-        {{>footer}}
+        <p>This site was created by: {{name}}, couldn't find a free working weather api</p>
+        <img class="img-profile" src="/img/Regy.png">
+        <footer class="footer_brand"> {{>footer}}</footer>
     </body>
 
 
 
     </html>
+
+    <style>
+        .img-profile {
+            width: 250px;
+            height: 50%;
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer_brand {
+            margin-top: 2rem
+        }
+    </style>

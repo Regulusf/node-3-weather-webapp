@@ -2,6 +2,7 @@ body{
     color: #333333;
     font-family: arial,sans-serif;
     max-width: 650px;
+    max-height: fit-content;
     margin: 0 auto;
     padding: 0 16px;
 

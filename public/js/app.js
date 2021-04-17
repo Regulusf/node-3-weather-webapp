@@ -22,7 +22,7 @@ const search = document.querySelector('input');
 const msgOne = document.querySelector('#message-1');
 const msgTwo = document.querySelector('#message-2');
 
-formWeather.addEventListner('submit', (e) => {
+formWeather.addEventListener('submit', (e) => {
 	e.preventDefautl();
 
 	msgOne.textContent = 'Loading...';
@@ -40,3 +40,5 @@ formWeather.addEventListner('submit', (e) => {
 		});
 	});
 });
+
+
